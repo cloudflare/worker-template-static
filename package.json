@@ -2,7 +2,7 @@
  "name": "template-creator",
  "version": "1.0.0",
  "description": "package for creating workers templates",
- "main": "index.js",
+ "main": "static.js",
  "scripts": {
   "test": "echo \"Error: no test specified\" && exit 1",
   "format": "prettier --write '**/*.{js,css,md}'"
