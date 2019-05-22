@@ -50,10 +50,8 @@ async function rawJsonResponse(json) {
     },
   }
 
-  return new Response(json, init)
+  return new Response(JSON.stringify(json), init)
 }
-
-//TODO add simple make subrequest
 
 /**
  * TODO changeto use KV will need mime types https://www.npmjs.com/package/mime-types
