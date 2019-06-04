@@ -1,6 +1,6 @@
 ## Static
 
-Generate a fully functioning HTML page from cloud storage or from inputting raw HTML into your work. Also, send static JSON.
+Generate a static HTML or JSON page from raw strings in your Workers script.
 
 [`index.js`](https://github.com/cloudflare/worker-template-static/blob/master/index.js) is the content of the Workers script.
 
