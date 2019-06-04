@@ -53,10 +53,6 @@ async function rawJsonResponse(json) {
   return new Response(JSON.stringify(json), init)
 }
 
-/**
- * TODO changeto use KV will need mime types https://www.npmjs.com/package/mime-types
- */
-
 addEventListener('fetch', event => {
   const { url } = event.request
 
